@@ -250,105 +250,21 @@ def response(sentence, userID='b80344d063b5ccb3212f76538f3d9e43d87dca9e', show_d
 
             results.pop(0)
 
-
-# In[15]:
-
-
+'''Testing
 classify('Suggest me a movie')
-
-
-# In[16]:
-
-
 classify('Hi')
-
-
-# In[17]:
-
-
 context
-
-
-# In[18]:
-
-
 response('Hi there!',show_details=True)
-
-
-# In[19]:
-
-
 response('Suggest me a movie',show_details=True)
-
-
-# In[20]:
-
-
 classify('Thriller')
-
-
-# In[21]:
-
-
 response('Thriller',show_details=True)
-
-
-# In[22]:
-
-
 response('Thriller')
-
-
-# In[23]:
-
-
 response('suggest me a song')
-
-
-# In[24]:
-
-
 response('Pop')
-
-
-# In[25]:
-
-
 response('suggest me a book')
-
-
-# In[26]:
-
-
 response('Thriller')
-
-
-# In[27]:
-
-
-response("Thriller")
-
-
-# In[28]:
-
-
 response("I want to read a book")
-
-
-# In[29]:
-
-
 response("Thriller")
-
-
-# In[30]:
-
-
 sentence='Hello'
-
-
-# In[31]:
-
-
 classify("I want movie book")
-
+'''
