@@ -1,0 +1,77 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+         "context_set":""
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful","Thanks a lot"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "movie",
+         "patterns": ["Suggest me a movie", "I want to watch a movie", "What movie do I watch?", "Recommend me movies","movie" ],
+         "responses": ["Select Genre: Thriller, Romance or Comedy"],
+         "context_set":"movie"
+        },
+        {"tag": "song",
+         "patterns": ["Suggest me a song", "I want to listen to a song", "What song do i listen to?", "Recommend me songs","Recommend me some songs","song"],
+         "responses": ["Select Genre: Pop, Rock or Hip-hop"],
+         "context_set":"song"
+        },
+        {"tag": "books",
+         "patterns": ["Suggest me a book", "I want to read a book", "What book do i read?", "Recommend me books","Recommend me some books","book"],
+         "responses": ["Select Genre: Thriller, Romance or Comedy"],
+         "context_set":"books"
+        },
+        {"tag": "genrebthriller",
+         "patterns": ["Thriller"],
+         "responses": ["Here are books recommended for you... "],
+         "context_filter":"books"
+        },
+        {"tag": "genrebromance",
+         "patterns": ["Romance"],
+         "responses": ["Here are books recommended for you..."],
+         "context_filter":"books"
+        },
+        {"tag": "genrebcomedy",
+         "patterns": ["Comedy"],
+         "responses": ["Here are books recommended for you... "],
+         "context_filter":"books"
+        },
+        {"tag": "genremthriller",
+         "patterns": ["Thriller"],
+         "responses": ["Here are movies recommended for you..."],
+         "context_filter":"movie"
+        },
+        {"tag": "genremromance",
+         "patterns": ["Romance"],
+         "responses": ["Here are movies recommended for you..."],
+         "context_filter":"movie"
+        },
+        {"tag": "genremcomedy",
+         "patterns": ["Comedy" ],
+         "responses": ["Here are movies recommended for you..."],
+         "context_filter":"movie"
+        },
+        {"tag": "genrespop",
+         "patterns": ["Pop"],
+         "responses": ["Here are songs recommended for you..."],
+         "context_fliter":"song"
+        },
+        {"tag": "genresrock",
+         "patterns": ["Rock"],
+         "responses": ["Here are songs recommended for you..."],
+         "context_fliter":"song"
+        },
+        {"tag": "genreshiphop",
+         "patterns": ["Hip-Hop","hiphop","hip hop" ],
+         "responses": ["Here are songs recommended for you..."],
+         "context_fliter":"song"
+        }
+   ]
+}
